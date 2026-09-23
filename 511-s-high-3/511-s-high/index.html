@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>511 S High St | 1st Floor Unit for Rent, West Chester PA</title>
+<meta name="description" content="Renovated 1st floor unit at 511 S High St, West Chester, PA. $5,500/month for up to 4. School year lease starting July 6, 2027. Free WiFi, laundry and parking.">
+<meta name="theme-color" content="#14294f">
+<meta property="og:title" content="511 S High St | 1st Floor Unit for Rent">
+<meta property="og:description" content="Renovated 1st floor unit for up to 4. Free WiFi, laundry and parking. School year lease starting July 2027.">
+<meta property="og:image" content="images/front-after.jpg">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --blue:#2b5797;
+    --navy:#14294f;
+    --sky:#edf2f9;
+    --line:#d9e1ee;
+    --ink:#0c1526;
+    --muted:#566179;
+    --white:#fff;
+    --r:8px;
+    --font:"Archivo",-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--white);color:var(--ink);font-family:var(--font);font-size:17px;line-height:1.5;
+       padding-bottom:calc(80px + env(safe-area-inset-bottom))}
+  img{display:block;max-width:100%}
+  a{color:var(--blue)}
+  .wrap{max-width:960px;margin:0 auto;padding:0 18px}
+  .display{font-stretch:104%;font-weight:700;text-transform:uppercase;letter-spacing:0;line-height:1}
+
+  /* Hero */
+  .hero{position:relative;min-height:82vh;min-height:82svh;display:flex;align-items:flex-end;color:var(--white);background:var(--navy);overflow:hidden}
+  .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 35%}
+  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,31,77,0) 25%,rgba(8,31,77,.55) 55%,rgba(8,31,77,.95) 100%)}
+  .hero .wrap{position:relative;z-index:1;width:100%;padding-top:20px;padding-bottom:28px}
+  .kicker{display:inline-block;background:var(--blue);color:var(--white);font-weight:600;font-size:13px;letter-spacing:.1em;text-transform:uppercase;padding:7px 10px;border-radius:4px}
+  .hero h1{font-size:clamp(40px,12vw,76px);margin:14px 0 10px}
+  .hero .addr{font-size:18px;font-weight:600;margin:0}
+  .hero .meta{display:flex;flex-wrap:wrap;gap:6px 16px;margin:10px 0 0;font-size:16px;opacity:.95}
+  .hero .meta span+span::before{content:"/";margin-right:16px;opacity:.5}
+
+  .btn{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0 24px;border-radius:var(--r);
+       font-family:var(--font);font-weight:700;font-size:17px;text-decoration:none;border:0;cursor:pointer;letter-spacing:.01em}
+  .btn-blue{background:var(--blue);color:var(--white)}
+  .btn-white{background:var(--white);color:var(--blue)}
+  .hero .btn{width:100%;margin-top:20px}
+
+  /* Free strip */
+  .free{background:var(--navy);color:var(--white)}
+  .free .wrap{display:grid;grid-template-columns:repeat(3,1fr);text-align:center;padding-top:18px;padding-bottom:18px}
+  .free div{padding:0 4px}
+  .free div+div{border-left:1px solid rgba(255,255,255,.3)}
+  .free b{display:block;font-size:13px;letter-spacing:.12em;font-weight:700;opacity:.85}
+  .free span{display:block;font-stretch:104%;font-weight:700;font-size:clamp(17px,4.8vw,26px);text-transform:uppercase;line-height:1.05}
+
+  section{padding:44px 0 4px}
+  h2{font-size:clamp(26px,7vw,38px);margin:0 0 18px;color:var(--navy)}
+
+  /* Facts */
+  .facts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .fact{border:2px solid var(--line);border-radius:var(--r);padding:14px}
+  .fact .k{font-size:12px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--muted)}
+  .fact .v{font-stretch:100%;font-weight:700;font-size:22px;line-height:1.15;color:var(--navy);margin-top:4px}
+  .fact.big{grid-column:1/-1;background:var(--navy);border-color:var(--navy);color:var(--white);display:flex;justify-content:space-between;align-items:center}
+  .fact.big .k{color:rgba(255,255,255,.75)}
+  .fact.big .v{color:var(--white);font-size:32px;font-weight:700}
+  .fact.big small{font-size:15px;font-weight:600;opacity:.8}
+
+  /* Lists */
+  .checks{list-style:none;margin:0;padding:0}
+  .checks li{position:relative;padding:12px 0 12px 34px;border-bottom:1px solid var(--line);font-weight:500}
+  .checks li:last-child{border-bottom:0}
+  .checks li::before{content:"";position:absolute;left:0;top:13px;width:22px;height:22px;border-radius:50%;background:var(--blue)}
+  .checks li::after{content:"";position:absolute;left:7px;top:19px;width:8px;height:5px;border-left:2px solid #fff;border-bottom:2px solid #fff;transform:rotate(-45deg)}
+  .checks small{display:block;font-weight:400;color:var(--muted);font-size:15px}
+  .pays{margin-top:16px;padding:14px 16px;background:var(--sky);border-radius:var(--r);font-size:15px}
+
+  .reno{list-style:none;margin:0;padding:0;counter-reset:n;display:grid;gap:10px}
+  .reno li{counter-increment:n;display:grid;grid-template-columns:44px 1fr;gap:4px 12px;padding:14px;border:2px solid var(--line);border-radius:var(--r)}
+  .reno li::before{content:counter(n,decimal-leading-zero);grid-row:span 2;font-stretch:100%;font-weight:700;font-size:22px;color:var(--blue);line-height:1}
+  .reno b{font-weight:700;color:var(--navy)}
+  .reno span{color:var(--muted);font-size:15px}
+
+  /* Before / after */
+  .pairs{display:grid;gap:26px}
+  .frame{position:relative;aspect-ratio:4/3;background:var(--sky);border-radius:var(--r);overflow:hidden}
+  .frame img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .25s;cursor:zoom-in}
+  .frame img.before{opacity:0}
+  .pair.show-before img.before{opacity:1}
+  .pair.show-before img.after{opacity:0}
+  .label{position:absolute;left:10px;top:10px;z-index:1;background:var(--white);color:var(--navy);font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:5px 8px;border-radius:4px;pointer-events:none}
+  .pair.show-before .label{background:var(--navy);color:var(--white)}
+  .pair-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:12px}
+  .pair-head b{font-stretch:100%;font-weight:700;font-size:20px;color:var(--navy)}
+  .tabs{display:flex;background:var(--sky);border-radius:var(--r);padding:3px;flex:0 0 auto}
+  .tabs button{font-family:var(--font);font-weight:700;font-size:15px;min-height:40px;padding:0 14px;border:0;border-radius:6px;background:transparent;color:var(--navy);cursor:pointer}
+  .tabs button[aria-pressed="true"]{background:var(--blue);color:var(--white)}
+  .pair p{margin:4px 0 0;color:var(--muted);font-size:15px}
+
+  /* Timeline */
+  .dates{list-style:none;margin:0;padding:0}
+  .dates li{display:grid;grid-template-columns:118px 1fr;gap:12px;padding:14px 0;border-bottom:1px solid var(--line)}
+  .dates li:last-child{border-bottom:0}
+  .dates .d{font-weight:700;color:var(--blue);font-size:15px;text-transform:uppercase;letter-spacing:.03em;line-height:1.3}
+  .dates .w{font-weight:700}
+  .dates small{display:block;font-weight:400;color:var(--muted);font-size:15px}
+
+  /* Contact */
+  .contact{background:var(--navy);color:var(--white);margin-top:48px;padding:44px 0 40px}
+  .contact h2{color:var(--white)}
+  .contact p{margin:0 0 18px;font-size:18px}
+  .contact .btn{width:100%}
+  .contact .links{margin-top:18px;display:grid;gap:8px}
+  .contact .links a{color:var(--white);font-weight:600}
+  footer{text-align:center;color:var(--muted);font-size:13px;padding:22px 18px}
+
+  /* Sticky */
+  .sticky{position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--white);border-top:1px solid var(--line);
+          padding:10px 16px calc(10px + env(safe-area-inset-bottom))}
+  .sticky .in{max-width:960px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;gap:12px}
+  .sticky .p{font-stretch:100%;font-weight:700;font-size:20px;color:var(--navy);line-height:1.1}
+  .sticky .p small{display:block;font-stretch:100%;font-weight:600;font-size:13px;color:var(--muted)}
+  .sticky .btn{min-height:48px;padding:0 26px}
+
+  dialog{border:0;padding:0;background:transparent;max-width:100vw;max-height:100vh}
+  dialog::backdrop{background:rgba(4,14,36,.93)}
+  dialog img{max-width:100vw;max-height:88vh;object-fit:contain}
+  dialog button{position:fixed;top:12px;right:12px;width:44px;height:44px;border:0;border-radius:var(--r);background:var(--white);color:var(--navy);font-size:26px;cursor:pointer}
+
+  @media (min-width:760px){
+    body{padding-bottom:0}
+    .sticky{display:none}
+    .hero{min-height:640px}
+    .hero .btn,.contact .btn{width:auto}
+    .facts{grid-template-columns:repeat(4,1fr)}
+    .reno{grid-template-columns:1fr 1fr}
+    .pairs{grid-template-columns:1fr 1fr}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <img src="images/front-after.jpg" alt="Brick front of 511 S High St with its covered front porch" fetchpriority="high">
+  <div class="wrap">
+    <span class="kicker">Now leasing · Summer 2027</span>
+    <h1 class="display">511 S<br>High St</h1>
+    <p class="addr">Renovated 1st floor unit</p>
+    <p class="meta"><span>West Chester, PA</span><span>Up to 4 people</span></p>
+    <a class="btn btn-white" href="#contact">Inquire now</a>
+  </div>
+</header>
+
+<div class="free" aria-label="Free with rent">
+  <div class="wrap">
+    <div><b>FREE</b><span>WiFi</span></div>
+    <div><b>FREE</b><span>Laundry</span></div>
+    <div><b>FREE</b><span>Parking</span></div>
+  </div>
+</div>
+
+<main class="wrap">
+
+  <section id="details">
+    <h2 class="display">The details</h2>
+    <div class="facts">
+      <div class="fact big"><div><div class="k">Rent</div><div class="v">$5,500<small> /mo</small></div></div><div class="k" style="text-align:right">School year<br>lease</div></div>
+      <div class="fact"><div class="k">Move in</div><div class="v">July 6, 2027</div></div>
+      <div class="fact"><div class="k">Move out</div><div class="v">May 20, 2028</div></div>
+      <div class="fact"><div class="k">Max</div><div class="v">4 people</div></div>
+      <div class="fact"><div class="k">Floor</div><div class="v">1st floor</div></div>
+    </div>
+  </section>
+
+  <div class="split">
+    <section id="included">
+      <h2 class="display">What you get</h2>
+      <ul class="checks">
+        <li>Free high-speed WiFi</li>
+        <li>Free laundry<small>Brand new washers and dryers on site</small></li>
+        <li>Free parking<small>6 spaces out back, first come first served</small></li>
+        <li>Your own covered front porch<small>Only for the 1st floor</small></li>
+        <li>Side yard</li>
+        <li>Security cameras outside</li>
+      </ul>
+      <div class="pays"><b>You pay:</b> your own electric (separate meter), plus water, sewer and trash.</div>
+    </section>
+
+    <section id="renovations">
+      <h2 class="display">All new</h2>
+      <ol class="reno">
+        <li><b>Heat + A/C in every room</b><span>Each room has its own controls, year round.</span></li>
+        <li><b>New kitchen</b><span>New cabinets, counters, stainless appliances and tile.</span></li>
+        <li><b>New bathroom</b><span>New tile, fixtures, plumbing and lighting.</span></li>
+        <li><b>New electric + plumbing</b><span>Your unit gets its own electric bill.</span></li>
+        <li><b>Fresh paint inside + out</b><span>Plus new doors where needed and new blinds.</span></li>
+      </ol>
+    </section>
+  </div>
+
+  <section id="photos">
+    <h2 class="display">Before + after</h2>
+    <div class="pairs">
+      <figure class="pair" style="margin:0">
+        <div class="frame"><span class="label">After</span>
+          <img class="after" src="images/front-after.jpg" alt="Front of the building after renovation" loading="lazy">
+          <img class="before" src="images/front-before.jpg" alt="Front of the building before renovation" loading="lazy">
+        </div>
+        <div class="pair-head"><b>Front</b><div class="tabs"><button type="button" data-v="before" aria-pressed="false">Before</button><button type="button" data-v="after" aria-pressed="true">After</button></div></div>
+        <p>Fresh paint and trim. The covered porch is yours.</p>
+      </figure>
+
+      <figure class="pair" style="margin:0">
+        <div class="frame"><span class="label">After</span>
+          <img class="after" src="images/kitchen-after.jpg" alt="New kitchen with white cabinets and stainless appliances" loading="lazy">
+          <img class="before" src="images/kitchen-before.jpg" alt="The same room before renovation" loading="lazy">
+        </div>
+        <div class="pair-head"><b>Kitchen</b><div class="tabs"><button type="button" data-v="before" aria-pressed="false">Before</button><button type="button" data-v="after" aria-pressed="true">After</button></div></div>
+        <p>The kitchen moved into this room to make space for laundry.</p>
+      </figure>
+
+      <figure class="pair" style="margin:0">
+        <div class="frame"><span class="label">After</span>
+          <img class="after" src="images/bath-after.jpg" alt="Renovated bathroom with tiled tub surround" loading="lazy">
+          <img class="before" src="images/bath-before.jpg" alt="The bathroom before renovation" loading="lazy">
+        </div>
+        <div class="pair-head"><b>Bathroom</b><div class="tabs"><button type="button" data-v="before" aria-pressed="false">Before</button><button type="button" data-v="after" aria-pressed="true">After</button></div></div>
+        <p>New tile, fixtures and lighting.</p>
+      </figure>
+
+      <figure class="pair" style="margin:0">
+        <div class="frame"><span class="label">After</span>
+          <img class="after" src="images/laundry-after.jpg" alt="New laundry room with four washers and dryers" loading="lazy">
+          <img class="before" src="images/laundry-before.jpg" alt="The old kitchen before it became the laundry room" loading="lazy">
+        </div>
+        <div class="pair-head"><b>Laundry</b><div class="tabs"><button type="button" data-v="before" aria-pressed="false">Before</button><button type="button" data-v="after" aria-pressed="true">After</button></div></div>
+        <p>The old kitchen is now a free laundry room.</p>
+      </figure>
+
+      <figure class="pair" style="margin:0">
+        <div class="frame"><span class="label">After</span>
+          <img class="after" src="images/rear-after.jpg" alt="Rear of the building with new siding and stairs" loading="lazy">
+          <img class="before" src="images/rear-before.jpg" alt="Rear of the building before renovation" loading="lazy">
+        </div>
+        <div class="pair-head"><b>Back</b><div class="tabs"><button type="button" data-v="before" aria-pressed="false">Before</button><button type="button" data-v="after" aria-pressed="true">After</button></div></div>
+        <p>New siding, stairs and railings. Parking is back here.</p>
+      </figure>
+    </div>
+  </section>
+
+  <section id="lease">
+    <h2 class="display">Lease terms</h2>
+    <ul class="dates">
+      <li><span class="d">At signing</span><span class="w">Security deposit due<small>Under 21? You'll need a parental guarantee signed by both parents.</small></span></li>
+      <li><span class="d">1 month before move-in</span><span class="w">Last month's rent due</span></li>
+      <li><span class="d">July 1, 2027</span><span class="w">First month's rent due</span></li>
+      <li><span class="d">July 6, 2027</span><span class="w">Move in</span></li>
+      <li><span class="d">May 20, 2028</span><span class="w">Lease ends</span></li>
+    </ul>
+  </section>
+</main>
+
+<section id="contact" class="contact">
+  <div class="wrap">
+    <h2 class="display">Want it?</h2>
+    <p>Email us to ask questions or book a showing. Get your group together early.</p>
+    <a class="btn btn-white" href="mailto:mamccool@comcast.net?subject=Inquiry%3A%20511%20S%20High%20St%2C%201st%20Floor&body=Hi%2C%0A%0AI'm%20interested%20in%20the%201st%20floor%20unit%20at%20511%20S%20High%20St.%0A%0AName%3A%0APhone%3A%0ANumber%20of%20people%20in%20my%20group%3A%0AQuestions%3A%0A">Email to inquire</a>
+    <div class="links">
+      <a href="mailto:mamccool@comcast.net">mamccool@comcast.net</a>
+      <a href="https://www.google.com/maps/search/?api=1&query=511+S+High+St+West+Chester+PA+19382" target="_blank" rel="noopener">511 S High St, West Chester, PA 19382 (map)</a>
+    </div>
+  </div>
+</section>
+
+<footer>Lease terms subject to change until signed.</footer>
+
+<div class="sticky">
+  <div class="in">
+    <div class="p">$5,500/mo<small>Up to 4 · Move in July 2027</small></div>
+    <a class="btn btn-blue" href="#contact">Inquire</a>
+  </div>
+</div>
+
+<dialog id="lb"><button type="button" aria-label="Close">&times;</button><img alt=""></dialog>
+
+<script>
+  document.querySelectorAll('.pair').forEach(function(fig){
+    var btns = fig.querySelectorAll('.tabs button'), label = fig.querySelector('.label');
+    btns.forEach(function(b){
+      b.addEventListener('click', function(){
+        var before = b.dataset.v === 'before';
+        fig.classList.toggle('show-before', before);
+        label.textContent = before ? 'Before' : 'After';
+        btns.forEach(function(x){ x.setAttribute('aria-pressed', x === b); });
+      });
+    });
+    fig.querySelector('.frame').addEventListener('click', function(){
+      var img = fig.querySelector(fig.classList.contains('show-before') ? 'img.before' : 'img.after');
+      var lb = document.getElementById('lb'), li = lb.querySelector('img');
+      li.src = img.src; li.alt = img.alt;
+      if (lb.showModal) lb.showModal();
+    });
+  });
+  document.getElementById('lb').addEventListener('click', function(){ this.close(); });
+</script>
+</body>
+</html>
